@@ -14,16 +14,9 @@ html{
     justify-content: center;
     align-items: center;
     background-color: #570000;
-    /* position: sticky; */
+    position: sticky;
     top: 0;
- 
 }
-@media (max-width: 480px) {
-    .navbar {
-        font-size: 30px;
-    }
-}
-
 
 .navbar ul{
     display: flex;
@@ -37,7 +30,6 @@ html{
     color: aliceblue;
     padding: 8px 25px;
     transition: all .5s ease;
-    font-size: 20px;
 }
 
 .navbar ul li a:hover{
@@ -59,7 +51,7 @@ html{
 
 #HOME::before{
     content: "";
-    position: relative;
+    position: absolute;
     top: 0;
     right: 0;
     background: url(backgound.jpg) no-repeat center center/cover;
@@ -68,7 +60,6 @@ html{
     z-index: -1;
     opacity: .8;
 }
-
 
 .main{
     display: flex;
@@ -120,15 +111,6 @@ html{
     
 }
 
-
-.headings{
-text-align: center;
-font-size: 50px;
-
-    
-}
-
-
 #pic{
     display: center;
     
@@ -148,17 +130,9 @@ font-size: 50px;
 
 #intro h2{
     display: center;
-    font-size: 60px;
+    font-size: 2rem;
     margin-bottom: 20px;
-    text-align: center;
-    padding-right: 550px;
 }
-#intro p{
- position: relative;
- font-size: 40px;
-   
-}
-
 
 
 /*portfolio*/
